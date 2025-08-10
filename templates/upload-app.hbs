@@ -1,0 +1,36 @@
+<section id="kiu-upload">
+  <div class="header">
+    <h3>{{localize "KIU.Title"}}</h3>
+  </div>
+  <div class="body">
+    <div class="row">
+      <label style="min-width:140px">{{localize "KIU.TargetFolder"}}</label>
+      <input class="target" type="text" name="target" value="{{target}}"/>
+      <button type="button" class="kiu-browse"><i class="fas fa-folder-open"></i> {{localize "KIU.Browse"}}</button>
+    </div>
+    <div class="row">
+      <label><input type="checkbox" class="kiu-datesub" {{#if dateSub}}checked{{/if}}/> {{localize "KIU.DateSubfolder"}}</label>
+    </div>
+
+    <div class="dropzone" tabindex="0">
+      <p>{{localize "KIU.DropHere"}}</p>
+      <input type="file" accept="image/*" multiple style="display:none" />
+      <div id="kiu-progress"><div></div></div>
+    </div>
+
+    <div class="files">
+      {{#if files.length}}
+        {{#each files as |f|}}
+          <div class="file"><span>{{f.name}}</span><span>{{f.size}}</span></div>
+        {{/each}}
+      {{else}}
+        <div class="file">{{localize "KIU.NoFiles"}}</div>
+      {{/if}}
+    </div>
+
+    <div class="actions">
+      <button type="button" class="kiu-clear"><i class="fas fa-trash"></i> {{localize "KIU.Clear"}}</button>
+      <button type="button" class="kiu-upload"><i class="fas fa-upload"></i> {{localize "KIU.Upload"}}</button>
+    </div>
+  </div>
+</section>

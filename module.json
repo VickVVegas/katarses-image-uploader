@@ -1,0 +1,41 @@
+{
+  "id": "katarses-image-uploader",
+  "title": "Katarses Image Uploader",
+  "description": "A simple, GM-only image uploader with drag-and-drop and FilePicker target selection for Foundry VTT v13.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Victoria & ChatGPT",
+      "url": "https://example.com",
+      "email": ""
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "flags": {},
+  "url": "https://example.com",
+  "manifest": "https://example.com/module.json",
+  "download": "https://example.com/archive.zip",
+  "license": "MIT",
+  "readme": "README.md"
+}

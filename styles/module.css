@@ -1,0 +1,13 @@
+:root{--kiu-accent:#c8a76a;}
+#kiu-upload .window-content{padding:0;}
+#kiu-upload .header{padding:12px 16px;border-bottom:1px solid #ddd;background:#1e1e1e;color:#eee;}
+#kiu-upload .body{padding:16px;gap:12px;display:flex;flex-direction:column;}
+#kiu-upload .row{display:flex;gap:8px;align-items:center;}
+#kiu-upload .target{flex:1;}
+#kiu-upload .dropzone{border:2px dashed var(--kiu-accent);border-radius:8px;padding:18px;text-align:center;opacity:.95}
+#kiu-upload .dropzone.drag{background:rgba(200,167,106,.15);}
+#kiu-upload .files{max-height:220px;overflow:auto;border:1px solid #ddd;border-radius:6px;padding:8px;}
+#kiu-upload .file{display:flex;justify-content:space-between;padding:6px 4px;border-bottom:1px dashed #e5e5e5;font-size:12px;}
+#kiu-upload .actions{display:flex;justify-content:flex-end;gap:8px;}
+#kiu-progress{height:6px;background:#f2f2f2;border-radius:4px;overflow:hidden}
+#kiu-progress > div{height:6px;background:var(--kiu-accent);width:0%}

@@ -1,0 +1,17 @@
+{
+  "KIU.Title": "Katarses Image Uploader",
+  "KIU.TargetFolder": "Pasta de destino",
+  "KIU.Browse": "Procurar",
+  "KIU.DateSubfolder": "Usar subpasta por data (AAAA-MM-DD)",
+  "KIU.DropHere": "Solte imagens aqui ou clique para selecionar",
+  "KIU.SelectFiles": "Selecionar Arquivos",
+  "KIU.Upload": "Enviar",
+  "KIU.Clear": "Limpar",
+  "KIU.OnlyGM": "Apenas um Mestre (GM) pode usar o uploader.",
+  "KIU.OpenUploader": "Abrir Uploader",
+  "KIU.Progress": "Progresso",
+  "KIU.Done": "Concluído",
+  "KIU.Failed": "Falhou",
+  "KIU.Files": "Arquivos",
+  "KIU.NoFiles": "Nenhum arquivo selecionado."
+}
