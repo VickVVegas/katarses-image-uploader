@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Victoria & ChatGPT",
+      "name": "Victoria",
       "url": "https://example.com",
       "email": ""
     }
@@ -35,7 +35,7 @@
   "flags": {},
   "url": "https://example.com",
   "manifest": "https://example.com/module.json",
-  "download": "https://example.com/archive.zip",
+  "download": "https://github.com/user-attachments/files/21706887/katarses-image-uploader-v1.0.0.zip",
   "license": "MIT",
   "readme": "README.md"
 }
